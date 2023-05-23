@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="354dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Modify The Account"
+            android:textColor="@color/primary_text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp" />
+
+        <EditText
+            android:id="@+id/inpotName"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/ii"
+            android:hint="@string/name"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingStart="16dp"
+            android:textColor="@color/primary_text"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/inpotEmill"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/ii"
+            android:hint="@string/emaill"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:textColor="@color/primary_text"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/inpotPasswor"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="19dp"
+            android:background="@drawable/ii"
+            android:drawableLeft="@drawable/baseline_calendar_month_24"
+            android:hint=" password"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:paddingStart="16dp"
+            android:textColor="@color/primary_text"
+            android:textSize="15sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="المواد المسجلة لطالب"
+            android:textSize="23sp"
+            android:gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="361dp"
+        android:gravity="center"
+        android:background="@drawable/iiiiiiii"
+        android:orientation="vertical">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="270dp" />
+
+        <Button
+            android:layout_width="127dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

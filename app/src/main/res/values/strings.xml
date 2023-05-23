@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ChatMK</string>
+    <string name="welcome_back">welcome back!</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="emaill">Emaill</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="add_image">Add Image</string>
+    <string name="name">Name</string>
+    <string name="confirom_password">Confirom Password</string>
+    <string name="password">Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">SIGN IN</string>
+</resources>
